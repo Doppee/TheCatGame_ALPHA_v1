@@ -1,0 +1,37 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>The Cat Run</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container"> 
+        <div id="homepage"> 
+            <h1>The Cat Run</h1>
+            <p>Salva il gatto dagli ostacoli!</p>
+            <p class="instructions">Premi Spazio per saltare</p>
+            <button id="start-button">START</button>
+        </div>
+        
+        <div id="gameOverScreen" class="hidden"> 
+            <h1>GAME OVER</h1>
+            <p>Punteggio Finale: <span id="final-score">0</span></p>
+            <button id="restart-button">RESTART</button>
+            <button id="menu-button">BACK TO MENU</button>
+        </div>
+
+        <div id="sky-background"></div> 
+        <div id="ground"></div>
+        <div id="character"></div>
+        <div id="obstacle"></div>
+        <div id="score-display">SCORE: 0</div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
